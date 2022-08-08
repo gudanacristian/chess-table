@@ -1,0 +1,20 @@
+td {
+    border-style: solid;
+    padding: 40px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.firstclass td:nth-child(even) {
+    background-color: grey;
+}
+
+.secondclass td:nth-child(odd) {
+    background-color: grey;
+}
+
+table {
+    border-collapse: collapse;
+    table-layout: fixed;
+    width: 1000px;
+}
